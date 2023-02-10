@@ -1,0 +1,22 @@
+.zoom,.img,.btn1,.btn2 {
+    transition: transform .1s;
+}
+.zoom:hover,.btn1:hover,.btn2:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.img:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+/* .card,.carddetails{
+    box-shadow: 3px 3px 7px 5px rgb(0, 0, 0), 7px 7px 15px 10px rgb(255, 255, 255);
+} */
+body{
+    background-image: linear-gradient(to right,rgb(183, 0, 255), rgb(255, 217, 2), rgba(255, 0, 191,0.7), rgb(144, 0, 255),rgb(255, 204, 2),rgba(208, 0, 255, 0.835));
+
+}
+
+
