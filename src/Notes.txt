@@ -1,14 +1,31 @@
+Features & Functionalities:
+
+1. Home page containing products cards. When user clicks on add to cart button,
+that item gets added to the cart menu in Header Component using Redux.
+2. Search bar in card component 
+3. Jondra for filtering every type of product to be displayed in Card compo(Home page) 
+4. When authorised user logs-in redirect them to Dashboard Page else redirect to Sign Up page.
+5. Login and signup using Formik & Yup library
+
 Components:
+
 1. Cards(Home page)
 2. CardsDetails(details of each product added in the cart)
 3. Header(Navbar) ---> Login, Signup, Cart dropdown Menu and Dashboard
 
 Tools:
+
 Redux for state management 
 Axios for fetching data
+Lazy loading
+Protected Routes
+Formik & Yup 
+Autho
+
 
 API:
 https://fakestoreapi.com/products
+
 
 UI Styling:
 Bootstrap
