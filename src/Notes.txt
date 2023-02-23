@@ -1,0 +1,17 @@
+Components:
+1. Cards(Home page)
+2. CardsDetails(details of each product added in the cart)
+3. Header(Navbar) ---> Login, Signup, Cart dropdown Menu and Dashboard
+
+Tools:
+Redux for state management 
+Axios for fetching data
+
+API:
+https://fakestoreapi.com/products
+
+UI Styling:
+Bootstrap
+Material UI
+Font Awesome icons for Header Icons
+CSS Basics

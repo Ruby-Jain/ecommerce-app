@@ -20,10 +20,7 @@ const Header = () => {
     const history = useNavigate()
 
     const getdata = useSelector((state) => state.cartreducer.cart)
-   
-
-    const getqnty = useSelector((state) => state.cartreducer.qnty)
-    
+    const getqnty = useSelector((state) => state.cartreducer.qnty) 
 
     const dispatch = useDispatch()
 
@@ -55,7 +52,6 @@ const Header = () => {
     const handleClose = () => {
         setAnchorEl(null);
     };
-    
 
     return (
         <>
